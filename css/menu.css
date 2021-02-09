@@ -1,0 +1,62 @@
+.menu__img {	
+	text-align: center;
+	object-fit: contain;
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+.menu__container {
+	margin: 20px;
+	margin-top: 40px;
+	display: flex;
+	flex-flow: wrap;
+	float: right;
+	transition: 1s;
+}
+.menu__card {
+	width: auto;
+	height: 100%;
+	border: 1.5px solid #DBDBDB;
+	border-radius: 10px;
+	background-color: white;
+	margin: 10px;
+	transition: 1s;
+	background-color: #C3DEDD;
+}
+.card__title {
+	color: #5E4C67;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.card__body {
+
+}
+.menu__img {
+	object-fit: contain;
+	width: 300px;
+}
+.menu__description {
+	font-size: 16px;
+	color: maroon;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.menu__1 {
+	width: 100%;
+	object-fit: contain;
+}
+.menu__footer {
+	padding: 50px;
+	background-color: #4e4e75;
+	left: 0;
+	bottom: 0;
+	margin-top: 120%;
+	color: white;
+	text-align: center;
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1), 
+		0 1px 20px 0 rgba(0,0,0,0.19);	
+}
